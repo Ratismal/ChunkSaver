@@ -1,2 +1,8 @@
-
+#///////////////////////////
 #
+# ChunkSaver - Ratismal
+#
+#///////////////////////////
+
+#How long until plugin checks for chunks to save
+seconds-until-save: 300
