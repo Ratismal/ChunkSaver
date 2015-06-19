@@ -1,4 +1,4 @@
-package io.github.ratismal.listeners;
+package io.github.ratismal.chunksaver.listeners;
 
 import org.bukkit.Chunk;
 import org.bukkit.block.Block;

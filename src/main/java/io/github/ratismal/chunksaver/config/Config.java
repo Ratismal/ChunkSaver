@@ -1,4 +1,4 @@
-package io.github.ratismal.config;
+package io.github.ratismal.chunksaver.config;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
