@@ -2,6 +2,8 @@ package io.github.ratismal;
 
 import java.util.HashSet;
 
+import io.github.ratismal.config.Config;
+import io.github.ratismal.listeners.BlockChangeListener;
 import org.bukkit.ChatColor;
 import org.bukkit.Chunk;
 import org.bukkit.World;
@@ -11,16 +13,15 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class EndReset extends JavaPlugin {
+public class ChunkSaver extends JavaPlugin {
 
 
-	private BlockChangeEvent blockChangeEvent;
+	private BlockChangeListener blockChangeEvent;
 	private Config pluginconfig;
 	
 	public void onEnable() {
 	  this.pluginconfig = new Config(getConfig());
-		expierenceDistributerManager.setup();
-		getServer().getPluginManager().registerEvents(new BlockChangeEvent(this), this);
+		getServer().getPluginManager().registerEvents(new BlockChangeListener(), this);
 		saveDefaultConfig();
 		//configmanager = new Config(getConfig());
 		//loadConfig();

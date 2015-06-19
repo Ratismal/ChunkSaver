@@ -1,0 +1,12 @@
+target/*
+ref/*
+src/test/*
+src/com/*
+.m2/*
+.idea/*
+.settings/*
+.idea/*
+.classpath
+.project
+APOCPayday.iml
+lib/*

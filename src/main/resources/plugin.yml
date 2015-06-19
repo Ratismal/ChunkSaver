@@ -1,0 +1,53 @@
+#Do not change any of this. It is needed for the plugin to work
+name: APOCPayday
+version: 1.2.1
+description: Allows players to get paid for mining.
+main: io.github.ratismal.apocpayday.APOCPayday
+authors: [WIX0A, Ratismal]
+softdepend: [Vault, mcMMO]
+#But you can change this.
+commands:
+  apocpayday:
+    aliases: apd
+    description: See all apocpayday commands
+    usage: /apocpayday
+permissions:
+  apocpayday.commands.basic:
+    description: Permission required for use of basic commands
+    default: true
+  apocpayday.commands.admin:
+    description: Permission required for use of admin commands
+    default: op
+  apocpayday.commands.debug:
+    description: Permission required for use of debug commands
+    default: op
+  apocpayday.mining:
+    description: Allows players to get rewards for mining
+    default: true
+  apocpayday.logging:
+    description: Allows players to get rewards for cutting trees
+    default: true
+  apocpayday.excavation:
+    description: Allows players to get rewards for digging
+    default: true
+  apocpayday.crafting:
+    description: Allows players to get rewards for crafting
+    default: true
+  apocpayday.smelting:
+    description: Allows players to get rewards for smelting
+    default: true
+  apocpayday.forging:
+    description: Allows players to get rewards for using anvils
+    default: true
+  apocpayday.farming:
+    description: Allows players to get rewards for farming
+    default: true
+  apocpayday.mobs:
+    description: Allows players to get rewards for killing mobs
+    default: true
+  apocpayday.pvp:
+    description: Allows players to get rewards for killing players
+    default: true
+  apocpayday.online:
+    description: Allows players to get rewards for staying online
+    default: true
